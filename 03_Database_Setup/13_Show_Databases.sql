@@ -1,0 +1,3 @@
+CREATE DATABASE collage;
+SHOW DATABASES;
+USE collage;

@@ -1,0 +1,2 @@
+CREATE DATABASE collage;
+DROP DATABASE collage;
