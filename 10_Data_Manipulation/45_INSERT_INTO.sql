@@ -1,0 +1,15 @@
+CREATE DATABASE IF NOT EXISTS collage;
+SHOW DATABASES;
+USE collage;
+
+CREATE TABLE IF NOT EXISTS student14 (
+    id INT,
+    name VARCHAR(50)
+);
+
+INSERT INTO student14(id , name)
+VALUES 
+(1, 'GOVIND'),
+(2, 'RAMESH');
+
+SELECT * FROM student14;

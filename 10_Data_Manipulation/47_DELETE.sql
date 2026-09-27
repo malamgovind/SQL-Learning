@@ -1,0 +1,17 @@
+CREATE DATABASE IF NOT EXISTS collage;
+SHOW DATABASES;
+USE collage;
+
+CREATE TABLE IF NOT EXISTS student16 (
+    id INT PRIMARY KEY,
+    name VARCHAR(50)
+);
+
+INSERT INTO student16(id , name)
+VALUES 
+(1, 'GOVIND'),
+(2, 'RAMESH');
+
+DELETE FROM student16
+WHERE id = 1;
+SELECT * FROM student16;
