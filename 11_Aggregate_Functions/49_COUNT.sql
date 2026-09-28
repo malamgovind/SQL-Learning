@@ -1,0 +1,14 @@
+CREATE DATABASE IF NOT EXISTS collage;
+SHOW DATABASES;
+USE collage;
+
+CREATE TABLE IF NOT EXISTS student18 (
+    id INT PRIMARY KEY,
+    name VARCHAR(50)
+);
+
+INSERT INTO student18 (id , name)
+VALUES (1, 'GOVIND'),
+(2, 'RAMESH');
+
+SELECT COUNT(*) FROM student18;

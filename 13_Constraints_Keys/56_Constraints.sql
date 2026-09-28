@@ -1,0 +1,10 @@
+CREATE DATABASE IF NOT EXISTS college;
+USE college;
+
+CREATE TABLE IF NOT EXISTS student25 (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(50) NOT NULL,
+    email VARCHAR(100) UNIQUE,
+    age INT CHECK (age >= 18),
+    city VARCHAR(50) DEFAULT 'Ahmedabad'
+);

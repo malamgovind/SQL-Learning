@@ -1,0 +1,15 @@
+CREATE DATABASE IF NOT EXISTS college;
+USE college;
+
+CREATE TABLE IF NOT EXISTS student32 (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(50)
+);
+
+INSERT INTO student32 (name)
+VALUES ('GOVIND');
+
+INSERT INTO student32 (name)
+VALUES ('AJAY');
+
+SELECT * FROM student32;
