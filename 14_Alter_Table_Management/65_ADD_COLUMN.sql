@@ -1,0 +1,13 @@
+CREATE DATABASE IF NOT EXISTS collage;
+SHOW DATABASES;
+USE collage;
+
+CREATE TABLE IF NOT EXISTS student33 (
+    id INT,
+    name VARCHAR(50)
+);
+
+ALTER TABLE student33
+ADD COLUMN age INT;
+
+SELECT * FROM student33;
